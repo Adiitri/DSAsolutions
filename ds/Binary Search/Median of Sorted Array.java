@@ -1,5 +1,8 @@
-/**/
+/* Leetcode-4 
+https://leetcode.com/problems/median-of-two-sorted-arrays/description*/
 
+// Brute - force ' t.c = O( (m+n)log(m+n)
+// merge array normally and sort.
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len1=nums1.length;
         int len2=nums2.length;
